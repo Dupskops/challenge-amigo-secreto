@@ -21,12 +21,32 @@ function ListarAmigos(){
  listar.innerHTML = "";
 
  for (let indice = 0; indice < listaDeAmigos.length; indice++) {
+    //Crea un elemento li 
     let AgregarLista = document.createElement('li');
+    //Se asigna los nombres de la lista de amigos a los li
     AgregarLista.textContent = listaDeAmigos[indice];
+    //Aqui se agrega los elementos li a la lista con el id listaAmigos con la variable de listar
     listar.appendChild(AgregarLista);
     
  }
 }
+
+function sortearAmigo(){
+   let indice = Math.floor(Math.random()*listaDeAmigos.length);
+   let resultado = document.getElementById('resultado');
+   let nombreSorteado = listaDeAmigos[indice];
+
+   console.log(indice);
+   if(listaDeAmigos.length ===0){
+    asignarTextoElemento('h3','Lista vacia');
+    
+   }else{
+ resultado.innerHTML = `El amigo secreto es: ${nombreSorteado}`;
+   }
+  
+    
+   }
+
  
 function limpiar(){
    inputNombres = document.querySelector('#amigo').value = ''; 
