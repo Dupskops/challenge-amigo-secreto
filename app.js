@@ -12,6 +12,8 @@ function agregarAmigo(){
     asignarTextoElemento('h3','Lista de amigos');
     ListarAmigos();
     limpiar();
+    }else{
+        asignarTextoElemento('h3', 'Coloca el nombre');
     }
     
 }
@@ -32,10 +34,11 @@ function ListarAmigos(){
 }
 
 function sortearAmigo(){
+    //variables
    let indice = Math.floor(Math.random()*listaDeAmigos.length);
    let resultado = document.getElementById('resultado');
    let nombreSorteado = listaDeAmigos[indice];
-
+//Verificar si la lista esta vacia si no sortea al amigo secreto
    if(listaDeAmigos.length ===0){
     asignarTextoElemento('h3','Lista vacia'); 
    }else{
