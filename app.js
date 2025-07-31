@@ -36,10 +36,8 @@ function sortearAmigo(){
    let resultado = document.getElementById('resultado');
    let nombreSorteado = listaDeAmigos[indice];
 
-   console.log(indice);
    if(listaDeAmigos.length ===0){
-    asignarTextoElemento('h3','Lista vacia');
-    
+    asignarTextoElemento('h3','Lista vacia'); 
    }else{
  resultado.innerHTML = `El amigo secreto es: ${nombreSorteado}`;
    }
