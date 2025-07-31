@@ -11,4 +11,4 @@ javascript el uso git y GitHub entre otras herramientas</p>
   - Se sorte a los amigos de manera aleatoria y muestra el resultado "sortearAmigo()"
 </p>
 <h1>Clonar repositorio</h1>
-<p>git clone </p>
+<p>git clone https://github.com/Dupskops/challenge-amigo-secreto.git</p>
