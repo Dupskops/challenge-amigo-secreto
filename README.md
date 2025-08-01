@@ -12,3 +12,9 @@ javascript el uso git y GitHub entre otras herramientas</p>
 
 <h1>Clonar repositorio</h1>
 <p>git clone https://github.com/Dupskops/challenge-amigo-secreto.git</p>
+
+<h1>Video Demostrativo</h1>
+https://github.com/user-attachments/assets/524464bf-633c-4692-9bbf-c3cf70a92db2
+
+<h1>Enlace del proyecto publicado por GitHub Pages</h1>
+https://dupskops.github.io/challenge-amigo-secreto
